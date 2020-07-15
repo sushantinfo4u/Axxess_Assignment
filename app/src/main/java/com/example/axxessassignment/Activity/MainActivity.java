@@ -33,6 +33,13 @@ import com.example.axxessassignment.Utility.AndroidHeleper;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *  * @author Name : Sushant SUryawanshi
+ * @MainActivity
+ * THis class provide home screen for application
+ * In which API call is done usign MVVM architecture and data is set to the recycle view
+ *
+ */
 public class MainActivity extends AppCompatActivity {
 
     private ApiResponse mainResponse;

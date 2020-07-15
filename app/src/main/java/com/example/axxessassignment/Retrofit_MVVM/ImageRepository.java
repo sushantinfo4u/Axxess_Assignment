@@ -14,6 +14,10 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
+/**
+ * @ImageRepository is class used for the getting the data fform the data source(API )
+ *
+ */
 public class ImageRepository {
 
     private static ImageRepository imageRepository;

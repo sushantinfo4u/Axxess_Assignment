@@ -10,6 +10,12 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.axxessassignment.R
 import com.example.axxessassignment.Room.CommentEntity
 
+/**
+ * @CommentAdapter is class is used for showing the comment to the
+ * recycle view
+ *
+ *
+ */
 class CommentAdapter(val commentList:List<CommentEntity>,val context:Context): RecyclerView.Adapter<CommentAdapter.ViewHolder>() {
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

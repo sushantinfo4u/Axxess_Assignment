@@ -6,7 +6,10 @@ import androidx.lifecycle.ViewModel;
 
 import com.example.axxessassignment.Model.ApiResponse;
 import com.example.axxessassignment.Utility.AndroidHeleper;
-
+/**
+ * @ImageViewModel this class is reposible for the interaction between view and model
+ *
+ */
 public class ImageViewModel extends ViewModel {
 
     private MutableLiveData<ApiResponse> apiResponseMutableLiveData;

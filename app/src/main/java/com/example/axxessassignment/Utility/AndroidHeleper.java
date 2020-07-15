@@ -9,6 +9,10 @@ import android.view.inputmethod.InputMethodManager;
 
 import com.example.axxessassignment.BuildConfig;
 
+/**
+ * @AndroidHelper class is used for commonutils
+ *
+ */
 public class AndroidHeleper {
 
     private static final String TAG="AXXESS ASSIGNMENT";

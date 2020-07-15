@@ -20,10 +20,14 @@ import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 import com.example.axxessassignment.Model.Image;
 import com.example.axxessassignment.R;
-import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
+/**
+ * @ImageAdapter class is used for the showing API response to the gridiview
+ *
+ *
+ */
 public class ImageAdapter extends BaseAdapter {
 
     private Context context;

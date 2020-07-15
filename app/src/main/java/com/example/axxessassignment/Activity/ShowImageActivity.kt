@@ -22,7 +22,12 @@ import kotlinx.coroutines.launch
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
-// Extension funcation for getting last sub string from the given string
+/**
+ * @author Name : Sushant SUryawanshi
+ * @ShowImageActivity This class is used for the detail view of the image
+ * and contain comment section
+ *
+ */
 
 class ShowImageActivity : AppCompatActivity() {
 
