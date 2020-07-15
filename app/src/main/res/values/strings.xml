@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AxxessAssignment</string>
+    <string name="searchscreen">Search Screen</string>
+    <string name="entersearch">Enter Search Item</string>
+    <string name="internet">Please connect to internet</string>
+</resources>

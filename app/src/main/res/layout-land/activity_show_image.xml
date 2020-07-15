@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ShowImageActivity">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <androidx.constraintlayout.widget.ConstraintLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <ImageView
+               android:layout_marginTop="40dp"
+               android:scaleType="fitCenter"
+               android:id="@+id/imgViewShow"
+               app:layout_constraintLeft_toLeftOf="parent"
+               app:layout_constraintRight_toRightOf="parent"
+               app:layout_constraintTop_toTopOf="parent"
+               android:src="@drawable/ic_launcher_background"
+               android:layout_width="300dp"
+               android:layout_height="300dp"/>
+
+
+           <RelativeLayout
+               android:layout_marginTop="50dp"
+               android:id="@+id/relativeLayout"
+               android:layout_marginRight="10dp"
+               android:layout_marginLeft="10dp"
+               android:background="@drawable/round_border"
+               app:layout_constraintTop_toBottomOf="@+id/imgViewShow"
+               android:layout_width="match_parent"
+               android:layout_height="100dp">
+
+               <EditText
+                   android:id="@+id/edtComment"
+                   android:inputType="textImeMultiLine"
+                   android:hint="Enter your comment"
+                   android:layout_width="match_parent"
+                   android:layout_height="100dp"/>
+
+               <Button
+                   android:id="@+id/btnSubmit"
+                   android:layout_alignParentRight="true"
+                   android:layout_alignParentBottom="true"
+                   android:text="Submit"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+
+           </RelativeLayout>
+
+           <TextView
+               android:text="comment"
+               android:gravity="center_horizontal"
+               app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+               android:textSize="20dp"
+               android:textStyle="bold"
+               android:layout_marginTop="20dp"
+               android:id="@+id/txtView"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+
+           <androidx.recyclerview.widget.RecyclerView
+               android:id="@+id/rcvComment"
+               app:layout_constraintTop_toBottomOf="@+id/txtView"
+               android:layout_width="match_parent"
+               android:layout_height="300dp"/>
+
+       </androidx.constraintlayout.widget.ConstraintLayout>
+
+   </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
